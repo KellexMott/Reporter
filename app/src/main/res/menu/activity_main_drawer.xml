@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accidents"
+            android:title="Accidents" />
+        <item
+            android:id="@+id/nav_campaigns"
+            android:title="Campaigns" />
+        <item
+            android:id="@+id/nav_corruption"
+            android:title="Corruption" />
+        <item
+            android:id="@+id/nav_littering"
+            android:title="Littering" />
+
+        <item
+            android:id="@+id/nav_traffic"
+            android:title="Traffic Voilation" />
+    </group>
+
+    <item android:title="Other Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>
